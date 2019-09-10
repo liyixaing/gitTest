@@ -11,3 +11,13 @@
                 break;
         }
     }
+
+
+ //打开邀请链接
+    private void openInviteUrl() {
+        Intent intent = new Intent(Intent.ACTION_VIEW,
+                (Uri.parse(inviteUrl))
+        ).addCategory(Intent.CATEGORY_BROWSABLE)
+                .addFlags(Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
