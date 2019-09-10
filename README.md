@@ -70,4 +70,27 @@ public void CloneTest() {
 
         }
 
+
+
+         })) {
+
+                // 页面按钮切换为进入之类的操作
+
+            } else {
+
+                // Clone 失败
+
+            }
+
+
+        } catch (MalformedURLException urle) {
+
+            urle.printStackTrace();
+
+        } catch (LMCoreExpection lmcoree) {
+
+            lmcoree.printStackTrace();
+
+        }
+
     }
