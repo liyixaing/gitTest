@@ -1,4 +1,5 @@
-#gitTest
+#gitTest-Delete
+
  @OnClick({R.id.invite_btn, R.id.register_btn})
     public void onViewClicked(View view) {
         switch (view.getId()) {
